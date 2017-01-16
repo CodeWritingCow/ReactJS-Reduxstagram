@@ -1,1 +1,15 @@
-// let's go!
+import React from 'react';
+
+import { render } from 'react-dom';
+
+// Import css
+import css from './styles/style.styl';
+
+// Import Components
+import Main from './components/Main';
+import Single from './components/Single';
+import PhotoGrid from './components/PhotoGrid';
+
+
+//render(<p>hello</p>, document.getElementById('root'));
+render(<Main />, document.getElementById('root'));
